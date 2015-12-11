@@ -14,4 +14,37 @@
   }
 ```
 
+＃绘制锐角三角形
+```html
+  <div class="a"></div>
+```
+```css
+  a:before {
+  content: "";
+  height: 0;
+  width: 0;
+  line-height: 0;
+  border: 300px solid transparent;
+  border-left-width: 0;
+  border-right-color: #f90;
+  border-width: 300px 1120px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  }
+  a:after {
+  content: "";
+  height: 0;
+  width: 0;
+  line-height: 0;
+  border: 300px solid transparent;
+  border-left-width: 0;
+  border-right-color: #fff;
+  border-width: 300px 1120px;
+  position: absolute;
+  top: 1;
+  left: 0;
+  }
+```
+
 
