@@ -29,6 +29,6 @@
   #tip {
     background: blue;  /*FF浏览器背景色为蓝色*/
     *background: black !important;/*IE7浏览器的背景色为红色*/
-    _background: green; /*IE6浏览器的背景色为红色*/
+    *background: green; /*IE6浏览器的背景色为红色*/
   }
 ```
