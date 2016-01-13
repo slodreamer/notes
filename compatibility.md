@@ -3,7 +3,7 @@
 ```css
   #tip {
     background: black;  /*非IE浏览器背景色为黑色*/
-    background: red\9 /* IE6,IE7,IE8浏览器背景色为红色*/
+    background: red\9; /* IE6,IE7,IE8浏览器背景色为红色*/
   }
 ```
 2.区别IE6,IE7,IE8,FF兼容性问题
