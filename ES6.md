@@ -6,4 +6,8 @@
   let a = 10;
   var b = 1;
 }
+
+a//ReferenceErrpr : a is not defined
+b//1
 ```
+上面的代码在代码块之中，分别用let和var声明了两个变量。然后在代码块之外调用这两个变量，结果le声明的变量报错，var声明的变量返回了正确的值。这表明，let声明的变量只在它所在的代码块有效。
