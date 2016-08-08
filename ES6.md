@@ -28,3 +28,12 @@ for(var i = 0; i < 10; i++) {
   }
 }
 ```
+- 暂时性死区
+```js
+var temp = 123;
+if(true) {
+  temp = 'abc';//ReferenceError
+  let temp;
+}
+```
+ES6明确规定，如果区块中存在let和const命令，这个区块对这些命令声明的变量，从一开始就形成了封闭作用域。凡是在声明之前就使用这些变量，就会报错。
